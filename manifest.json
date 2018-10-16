@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    
+    "name": "DCPost Preview",
+    "description": "DCPost Preview",
+    "version": "1.0",
+    
+    "browser_action": {
+        "default_icon": "res/img/icon.png",
+        "default_popup": "popup.html"
+    },
+	"background": {
+		"scripts": ["/jsbackground.js"]
+	},
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ]
+}
